@@ -29,7 +29,7 @@
         </v-toolbar>
         <v-container fluid grid-list-xl>
           <router-view></router-view>
-        </v-container>        
+        </v-container>
 
 
     </v-app>
@@ -46,6 +46,8 @@ export default {
       items: [
         { title: 'Home', icon: 'dashboard', to: '/' },
         { title: 'Conteúdo', icon: 'question_answer', to:'/content' },
+        { title: 'Sobre', icon: 'info', to:'/sobre' },
+        { title: 'Hello World', icon: 'home', to:'/hello' },
       ]
     }
   }
