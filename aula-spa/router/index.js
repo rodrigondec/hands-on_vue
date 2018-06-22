@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import HelloWorld from '../src/components/HelloWorld.vue'
 import CardList from '../src/components/CardList.vue'
 import SobreView from '../src/views/SobreView.vue'
 import HomeView from '../src/views/HomeView.vue'
@@ -23,8 +24,11 @@ export default new Router({
 			path: '/sobre',
 			name: 'SobreView',
 			component: SobreView
+		},
+		{
+			path: '/hello',
+			name: 'HelloView',
+			component: HelloWorld
 		}
 	]
 })
-
-
