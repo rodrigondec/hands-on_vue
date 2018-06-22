@@ -1,4 +1,4 @@
-# Hands-on Vue
+# Hands-on Vue.js
 
 ## Como biblioteca
 1. hello World
